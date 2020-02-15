@@ -1,0 +1,29 @@
+var x:int=5;
+var y:string="abc";
+if(x>5)
+{
+	var c:float=0.0;
+	print("no");
+}
+else if(x==5)
+{
+        var z:int=100;
+        print(z);
+	while(!(z<x))
+	{
+		print(y+"asd"+y);
+		x=x+10;
+	}
+}
+else
+{
+        var d="add";
+        print(x);
+	var f:int=0;
+}
+read(y);
+read(x);
+print(y);
+print(x);
+print(True);
+

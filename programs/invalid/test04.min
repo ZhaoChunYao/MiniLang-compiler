@@ -1,0 +1,2 @@
+#Type error: assign bool to int
+var x:int=True;

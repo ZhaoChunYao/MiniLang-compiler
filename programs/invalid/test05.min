@@ -1,0 +1,4 @@
+#type error: add string to int
+var x:string="something";
+var y:int=9;
+print(x+y);

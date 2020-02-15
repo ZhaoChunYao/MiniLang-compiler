@@ -1,0 +1,7 @@
+#Type Error: if condition not bool
+var x:float=10.0;
+if(x)
+{
+        print(x);
+}
+

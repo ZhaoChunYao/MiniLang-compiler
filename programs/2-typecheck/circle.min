@@ -1,0 +1,7 @@
+#given a radius, find the area of the circle
+var radius:float=0.0;
+var pi:float=3.14;
+var area:float=0;
+read(radius);
+area=pi*radius*radius;
+print(area);
