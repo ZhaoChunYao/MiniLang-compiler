@@ -1,0 +1,10 @@
+This is a full compiler consisted of a scanner, a parser, a pretty printer, a type checker, and a code generater.
+This compiler takes a MiniLang file and a mode as inputs. 
+The compiler has 7 modes: 
+  scan: Outputs OK if the input is lexically correct, or an appropriate error message
+  tokens: Outputs the token kinds, one per line, until the end of file. 
+  parse: Outputs OK if the input is syntactically correct, or an appropriate error message. The abstract syntax tree is also built during parsing.
+  pretty: traverse the abstract syntax tree to pretty print the MiniLang program.
+  symbol: Outputs the symbol table to stdout.
+  type: Outputs OK if the input is type correct, or an appropriate error message.
+  codegen: Outputs an executable C file.
